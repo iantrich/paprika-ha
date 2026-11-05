@@ -13,7 +13,8 @@ from .const import DOMAIN
 from .coordinator import PaprikaCoordinator
 from .data import PaprikaConfigEntry, PaprikaRuntimeData
 
-_PLATFORMS: list[Platform] = [Platform.CALENDAR, Platform.TODO]
+# Calendars only while this runs beside rbrunt/paprika-ha, which keeps the to-do lists
+_PLATFORMS: list[Platform] = [Platform.CALENDAR]
 
 
 LOGGER = logging.getLogger(__name__)

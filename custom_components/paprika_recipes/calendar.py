@@ -40,7 +40,7 @@ class PaprikaMealCalendar(CalendarEntity, CoordinatorEntity["PaprikaCoordinator"
     @property
     def name(self):
         """Name of the entity."""
-        return f"Paprika {self.meal_type['name']}"
+        return f"Paprika Recipes {self.meal_type['name']}"
 
     @property
     def event(self):
@@ -102,7 +102,7 @@ class PaprikaAllMealsCalendar(CalendarEntity, CoordinatorEntity["PaprikaCoordina
     @property
     def name(self):
         """Name of the entity."""
-        return "Paprika All Meals"
+        return "Paprika Recipes All Meals"
 
     @property
     def event(self):

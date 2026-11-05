@@ -1,3 +1,3 @@
 """Constants for the Paprika integration."""
 
-DOMAIN = "paprika"
+DOMAIN = "paprika_recipes"
